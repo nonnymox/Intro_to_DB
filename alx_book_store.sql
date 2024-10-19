@@ -1,5 +1,5 @@
 -- Create the database for the online bookstore and select the database to use for subsequent operations
-CREATE DATABASE alx_book_store;
+CREATE DATABASE IF NOT EXISTS alx_book_store
 USE alx_book_store;
 
 -- Create the Authors table to store author information
